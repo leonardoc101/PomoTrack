@@ -53,9 +53,19 @@
 }
 
 .login button {
-  align-self: center;
+  /* temporary basic button styling */
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
 }
 
+.login button.google-login-btn {
+  /* temporary basic button styling with some stuff specific to google */
+  background: rgba(52, 119, 226, 0.69);
+}
 .title {
   font-size: 60;
 }
